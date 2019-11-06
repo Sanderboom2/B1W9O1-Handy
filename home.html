@@ -4,28 +4,34 @@
 	<title>home</title>
 	<link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<script src="https://kit.fontawesome.com/370ec09882.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<img id="logo" src="img/logo.jpg">
+	<img class="logo" src="img/logo.jpg">
 	<nav>
-		<ul>
+		<ul class="menu">
 			<li><a href="home.html">HOME</a></li>
-			<li><a href="over ons.html">OVER ONS</a></li>
+			<li class="uitklap-item"><a href="over ons.html">OVER ONS <i class="fas fa-chevron-down"></i></a>
+				<ul class="uitklap-menu">
+					<li><a href="#">Geschiedenis</a></li>
+					<li><a href="#">Deals</a></li>
+					<li><a href="#">Diensten</a></li>
+				</ul>
+			</li>
 			<li><a href="portfolio.html">PORTFOLIO</a></li>
 			<li><a href="nieuws.html">NIEUWS</a></li>
 			<li><a href="contact.html">CONTACT</a></li>
 		</ul>
 	</nav>
-	<img src="img/header.jpg">
-	<img id="banner1" src="img/banner-1.jpg">
-	<img id="banner2" src="img/banner-2.jpg">
-	<img id="banner3" src="img/banner-3.jpg">
-	<div id="balk">
-		<h1>Wij bouwen oplossingen</h1>
-		<p>Die echt werken...</p>
-		<button></button>
+	<img class="header" src="img/header.jpg">
+	<img class="banner1" src="img/banner-1.jpg">
+	<img class="banner2" src="img/banner-2.jpg">
+	<img class="banner3" src="img/banner-3.jpg">
+	<div class="balk">
+		<h1>Wij bouwen oplossingen<span> Die echt werken...</span></h1>
+		<button>MEER WETEN?</button>
 	</div>
-	<img id="footer" src="img/footer.jpg">
+	<img class="footer" src="img/footer.jpg">
 
 </body>
 </html>
