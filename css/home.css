@@ -10,6 +10,10 @@ nav{
 	position: relative;
 	top: 20px;
 }
+ul{
+	position: relative;
+	top: 14px;
+}
 .header{
 	width: 100%;
 	height: 100%;
@@ -54,17 +58,12 @@ span{
 a{
 	color: white;
 	text-decoration: none;
-	position: absolute;
-	top: 12px;
+	margin: 0 5px;
 }
 .menu>li{
 	display: inline-block;
-	width: 110px;
-	height: 45px;
+	height: 20px;
 	background-color: #222931; 
-}
-.menu>li:hover{
-	background-color: #ffe718;
 }
 .uitklap-menu{
 	display: none;
@@ -77,14 +76,24 @@ a{
 .uitklap-menu>li{
 	border: 1px solid #222931;
 	width: 110px;
+	height: 25px;
 }
 .uitklap-item:hover > .uitklap-menu{
-	background-color: #ffe718;
+	background-color: #222931;
 	display: block;
 }
 .uitklap-item{
 	position: relative;
 }
 .uitklap-menu>li:hover{
-	background-color: #222931;
+	background-color: #ffe718;
+}
+.menu>li:hover{
+	background-color: #ffe718;
+}
+.uitklap-menu>li:hover > .uitklap-menu>li>a{
+		color: #222931;
+}
+.menu>li:hover > .menu>li>a{
+		color: #222931;
 }
