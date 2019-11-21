@@ -40,8 +40,9 @@ ul{
 	margin: 60px 0;
 }
 .balk>h1{
-	font-size: 34px;
+	font-size: 	34px;
 	margin-left: 150px;
+	padding: 50px;
 }
 span{
 	font-size: 15px;
@@ -50,6 +51,10 @@ span{
 .balk>button{
 	background-color: white;
 	border: none;
+	padding: 12px 40px;
+	position: absolute;
+	left: 1000px;
+	top: 942px;
 }
 .footer{
 	width: 100%;
@@ -96,4 +101,7 @@ a{
 }
 .menu>li:hover > .menu>li>a{
 		color: #222931;
+}
+.banner1:hover{
+	opacity: 0.5;
 }
