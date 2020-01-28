@@ -56,7 +56,11 @@ span{
 	left: 1000px;
 	top: 942px;
 }
-.footer{
+.balk>button:hover{
+	background-color: #222931;
+	color: white;
+}
+.footer1{
 	width: 100%;
 	height: 100%;
 }
@@ -67,21 +71,23 @@ a{
 }
 .menu>li{
 	display: inline-block;
-	height: 20px;
+	padding: 14px;
 	background-color: #222931; 
+	position: relative;
+	top: -14px;
 }
 .uitklap-menu{
 	display: none;
 	list-style-type: none; 
 	padding: 0;
 	position: absolute;
-	top: 19px;
+	top: 45px;
 	left: 0;
 }
 .uitklap-menu>li{
 	border: 1px solid #222931;
-	width: 110px;
-	height: 25px;
+	width: 210px;
+	padding: 5px;
 }
 .uitklap-item:hover > .uitklap-menu{
 	background-color: #222931;
@@ -105,3 +111,102 @@ a{
 .banner1:hover{
 	opacity: 0.5;
 }
+
+.knoppen{
+    position: absolute;
+    top: 1285px;
+    left: 230px;
+}
+.knoppen>a{
+    background-color: #ffe718;
+    text-align: left;
+    display: inline-block;
+    color: #000000;
+    margin: 0 15px;
+    width: 300px;
+    height: 100px;
+}
+.knoppen>a:hover{
+    background-color: #222931;
+    color: #FFFFFF;
+}
+.knoppen>a>i{
+    float: left;
+    margin:  18px 12px;
+    font-size: 50px;
+}
+.knoppen>a>h2{
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 600;
+    align-content: initial;
+}
+.knoppen>a>p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.main-text {
+    position: absolute;
+    top: 1450px;
+    left: 250px;
+    color: #000000;
+    width: 1000px;
+    display: flex;
+}
+
+.main-text>div>ul>li>p {
+    position: absolute;
+    text-align: left;
+    display: inline-block;
+    height: 80px;
+    margin:  20px;
+}
+.main-text>div>ul {
+    list-style-type: none;
+    height: 240px;
+}
+.main-text>div>ul>li {
+    margin: 10px 0;
+    width: 240px;
+    height: 80px;
+}
+.fa-map-marker-alt{
+    display: inline-block;
+    left: 0;
+    background-size: cover;
+    width: 20px;
+    height: 27px;
+    margin: 26.5px 10px;
+}
+.fa-phone{
+    display: inline-block;
+    left: 0;
+    background-size: cover;
+    width: 20px;
+    height: 32px;
+    margin: 24px 10px;
+}
+.fa-envelope-open-text{
+    display: inline-block;
+    left: 0;
+    background-size: cover;
+    width: 32px;
+    height: 28px;
+    margin: 28px 5px;
+}
+
+.footer {
+    background-color: #222931;
+    width: 100%;
+    height: 60px;
+    left: 0;
+    top: 1800px;
+    position: absolute;
+}
+.footer>p {
+    position: absolute;
+    margin: 20px 40px;
+    right: 40px;
+}
+
